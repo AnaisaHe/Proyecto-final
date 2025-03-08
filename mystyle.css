@@ -1,0 +1,186 @@
+/* Reset de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Fondo gris claro */
+    color: #333; /* Color de texto oscuro para contraste */
+}
+
+/* Header */
+header {
+    background-color: #0d6efd; /* Azul */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline; /* Subraya el enlace al pasar el mouse */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Estilos de la galería */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Disposición en columnas automáticas */
+    gap: 20px;
+    padding: 20px;
+    justify-items: center; /* Alineación centrada de las imágenes */
+}
+
+.image-item {
+    text-align: center;
+}
+
+.image-item img {
+    width: 100%; /* Asegura que la imagen ocupe todo el espacio disponible */
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave alrededor de la imagen */
+}
+
+.image-item h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #0d6efd; /* El mismo azul para el título de la imagen */
+}
+
+/* Títulos principales */
+h1, h2 {
+    color: #0d6efd; /* Azul para los títulos */
+}
+/* Reset de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Fondo gris claro */
+    color: #333; /* Color de texto oscuro para contraste */
+}
+
+/* Header */
+header {
+    background-color: #0d6efd; /* Azul */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+/* Navegación */
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px 15px;
+}
+
+nav ul li a:hover {
+    background-color: #0d6efd; /* Azul de fondo cuando pasa el mouse */
+    border-radius: 5px;
+}
+
+nav ul li a.active {
+    background-color: #0d6efd; /* Azul de fondo para la página activa */
+    border-radius: 5px;
+}
+
+/* Sección principal */
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Lista de servicios */
+.services-list h2 {
+    font-size: 2em;
+    color: #0d6efd;
+    margin-bottom: 20px;
+}
+
+.services-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.services-list li {
+    padding: 8px 0;
+    font-size: 1.2em;
+}
+
+.services-list li::before {
+    content: "✔️ "; /* Agregar un icono de check */
+    color: #0d6efd; /* Azul para el icono */
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 1em;
+}
